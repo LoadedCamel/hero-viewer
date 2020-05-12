@@ -1,9 +1,10 @@
 # Hero Viewer
-_A simple app to review character builds made with Mids' Reborn/Pine Hero Designer/Mids' Hero Designer_
-_GPL v3.0_
 
-Very basic application to show an overview of your character builds (.mhd files) built with the ElectronJS framework.
-As the name suggests, its first goal is to help when you're actually building your character ingame, and will act like a shopping list checker.
+_A simple app to review character builds made with Mids' Reborn/Pine Hero Designer/Mids' Hero Designer_  
+_GPL v3.0_  
+
+Very basic application to show an overview of your character builds (.mhd files) built with the ElectronJS framework.  
+As the name suggests, its first goal is to help when you're actually building your character ingame, and will act like a shopping list checker.  
 But it is _not_ meant to be an editor, so no damage/survivability calculations, no way to change enhancements on-the-fly either.
 
 ## Key features
@@ -17,17 +18,17 @@ But it is _not_ meant to be an editor, so no damage/survivability calculations, 
 * UI made classic html/css + bootstrap CSS library
 
 ## Technical specs
-This app is built with the [ElectronJS framework](https://electronjs.org/), basically using Chromium for the frontend and NodeJS for the back end.
-It will run under Windows, Linux and Mac, 32 or 64 bits systems. No compilation, no extra dependency, it will run out of the box. Tested with ElectronJS 7.1.2 but will most likely run with any higher version.
-For compacity of this repository, you will need to download the appropriate ElectronJS framework. See ___Installation___ section for details.
-The database version is based upon [Mids' Reborn](https://github.com/Crytilis/mids-reborn-hero-designer/) 2.6.0.7 sources.
+This app is built with the [ElectronJS framework](https://electronjs.org/), basically using Chromium for the frontend and NodeJS for the back end.  
+It will run under Windows, Linux and Mac, 32 or 64 bits systems. No compilation, no extra dependency, it will run out of the box. Tested with ElectronJS 7.1.2 but will most likely run with any higher version.  
+For compacity of this repository, you will need to download the appropriate ElectronJS framework. See ___Installation___ section for details.  
+The database version is based upon [Mids' Reborn](https://github.com/Crytilis/mids-reborn-hero-designer/) 2.6.0.7 sources.  
 For debugging purposes, you can trigger the developer console pressing F12.
 
 ## Installation
-Install the ElectronJS framework for your system: if you have NodeJS/NPM installed already you can grab it as a npm package. NPM commands are detailed on their [main page](https://electronjs.org/).
-For a direct zip package download, get it from [ElectronJS' github](https://github.com/electron/electron/releases/tag/v8.2.5). As of today the latest stable release is 8.2.5. Then pick the one matching your architecture and OS, unpack it anywhere you like.
-Get the Hero Viewer application code: on this page, use the "clone or download" button then "download as zip".
-Unpack it into __dist/resources/app__ subfolder of your ElectronJS installation (create it if necessary). So when you browse this folder, you should only see a few webpages, JS files, and bootstrap, css, images... subfolders.
+Install the ElectronJS framework for your system: if you have NodeJS/NPM installed already you can grab it as a npm package. NPM commands are detailed on their [main page](https://electronjs.org/).  
+For a direct zip package download, get it from [ElectronJS' github](https://github.com/electron/electron/releases/tag/v8.2.5). As of today the latest stable release is 8.2.5. Then pick the one matching your architecture and OS, unpack it anywhere you like.  
+Get the Hero Viewer application code: on this page, use the "clone or download" button then "download as zip".  
+Unpack it into __dist/resources/app__ subfolder of your ElectronJS installation (create it if necessary). So when you browse this folder, you should only see a few webpages, JS files, and bootstrap, css, images... subfolders.  
 Start __electron.exe__ from the __dist__ subfolder. Under *nix platforms it is named __electron__.
 
 ## Limitations & known issues
