@@ -1,0 +1,16 @@
+{
+	"name": "Hero Viewer",
+	"version": "1.0.0-beta",
+	"build": "051320",
+	"main": "main.js",
+	"description": "Preview City of Heroes character builds made with Mids' Hero Designer/Mids' Reborn.",
+	"author": "Zed",
+	"license": "GPL-3.0",
+	"devDependencies": {
+		"electron": "^7.1.2"
+	},
+	"dependencies": {},
+	"scripts": {
+		"start": "electron ."
+	}
+}

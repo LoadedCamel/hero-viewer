@@ -1,0 +1,195 @@
+body:not([class*="villain"]) span.heroaction {
+	height: 18px;
+	padding: 2px;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 9px;
+}
+
+body:not([class*="villain"]) span.heroaction input,
+body:not([class*="villain"]) span.heroaction button {
+	font-family: "Webly Sleek UI SemiBold";
+	min-width: 60px;
+	height: 14px;
+	line-height: 12px;
+	vertical-align: top;
+	text-align: center;
+	color: #FFF;
+	text-shadow: -1px 0 1px #000, 1px 0 1px #000, 0 -1px 1px #000, 0 1px 1px #000;
+	border-radius: 7px;
+	border: none;
+	outline: none;
+}
+
+span.heroaction.disabled {
+	filter: saturate(10%) brightness(75%);
+}
+
+div.powers {
+	flex-grow: 1;
+	min-width: 95px;
+	max-width: 150px;
+}
+
+div.powerslotsouter {
+	max-width: 655px;
+	width: 655px;
+	height: 640px;
+	margin: 0;
+	padding: 0;
+	flex-grow: 1;
+	overflow-y: auto;
+}
+
+div.powerslots {
+	flex-grow: 1;
+	max-width: 210px;
+	width: 210px;
+	display: inline-block;
+}
+
+div.powerslot {
+	width: 188px;
+	height: 29px;
+	position: relative;
+	z-index: 1;
+	border-radius: 14px;
+	padding: 0;
+	margin-bottom: 26px;
+}
+
+div.powerslot div.inner {
+	position: absolute;
+	width: 182px;
+	height: 23px;
+	left: 3px;
+	top: 3px;
+	z-index: 2;
+	border-radius: 14px;
+}
+
+div.powerslot div.label {
+	font-family: "Webly Sleek UI SemiBold";
+	font-size: 11px;
+	left: 8px;
+	top: 5px;
+	color: #000;
+	z-index: 3;
+	position: absolute;
+	line-height: 11px;
+	/* Fake bolder. May need some tweaking. Original color: #333 (51/256 = 20% brightness) */
+	text-shadow: -0.15pt 0 0.15pt #333, 0.15pt 0 0.15pt #333, 0 -0.15pt 0.15pt #333, 0 0.15pt 0.15pt #333;
+}
+
+div.powerslot ul {
+	list-style-type: none;
+	position: absolute;
+	left: 4px;
+	top: 20px;
+	z-index: 4;
+	padding: 0;
+	margin: 0;
+	width: 200px;
+	height: 30px;
+}
+
+div.powerslot ul li {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	margin-right: 1px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+div.powerslot ul li.empty {
+	background: url('data:image/png;base64,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') no-repeat top left;
+}
+
+div.powers span:not([class*="specname"]) {
+	color: #FF0;
+}
+
+div.powers span.active:not([class*="specname"]) {
+	color: #0F0;
+}
+
+li.enh {
+	cursor: pointer;
+	z-index: 20;
+}
+
+li.enh.boost:after {
+	content: "+5";
+	color: #00dcff;
+	background-color: #000;
+	border: 1px solid #a0a0a0;
+	border-radius: 2px;
+	font-size: 8px;
+	padding: 0 1px 1px 1px;
+	font-family: "Petitinho"; /* Variant: Android 101 */
+	position: relative;
+	left: 7px;
+	top: 19px;
+	opacity: 0.8;
+}
+
+div#info_popup {
+	position: absolute;
+	z-index: 10;
+	background-color: #000;
+	color: #FFF;
+	visibility: hidden;
+	opacity: 0;
+	padding: 3px;
+	transition: visibility 0.3s, opacity 0.3s ease-in-out;
+	left: 5px;
+	top: 5px;
+	pointer-events: none;
+}
+
+div#info_popup h1 {
+	font-size: 15px;
+}
+
+div#info_popup .common {
+	color: #E2E2E2;
+}
+
+div#info_popup .uncommon {
+	color: #FF0;
+}
+
+div#info_popup .rare {
+	color: #E98800; /* 233, 136, 0 */
+}
+
+div#info_popup .veryrare {
+	color: #B87DFF; /* 184, 125, 255 */
+}
+
+div#info_popup .specialO {
+	color: #FFA; /* 255, 255, 170 */
+}
+
+div.powerslots.enhcheck li.enh:not([class*="active"]) {
+	filter: brightness(65%) saturate(65%);
+}
+
+span.specname {
+	display: block;
+	color: #E98800;
+	margin-top: 0.15em;
+	margin-bottom: 0.15em;
+	font-family: "Red Circle";
+}
+
+/*
+Gradient text:
+
+background: linear-gradient(...);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+*/

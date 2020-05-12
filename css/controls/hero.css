@@ -1,0 +1,18 @@
+body:not([class*="villain"]) span.heroaction,
+body:not([class*="villain"]) div.powerslot {
+	background: linear-gradient(to bottom, #417cf5 0%, #203da2 2%, #18295a 4%, #203da3 50%, #103a7a 96%, #3c70e8 98%, #1c3698 100%);
+}
+
+body:not([class*="villain"]) span.heroaction input,
+body:not([class*="villain"]) span.heroaction button,
+body:not([class*="villain"]) div.powerslot div.inner {
+	background: linear-gradient(to bottom, #83b2ec 0%, #0865d7 50%, #003372 100%);
+}
+
+body:not([class*="villain"]) span.heroaction.active {
+	filter: hue-rotate(-100deg) saturate(200%);
+}
+
+body:not([class*="villain"]) div#info_popup {
+	border: 1px solid #44F;
+}

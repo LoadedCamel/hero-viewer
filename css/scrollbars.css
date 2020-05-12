@@ -1,0 +1,26 @@
+::-webkit-scrollbar,
+::-webkit-scrollbar-corner {
+	background-color: #222;
+}
+
+::-webkit-scrollbar:horizontal {
+	height: 9px;
+}
+
+::-webkit-scrollbar:vertical {
+	width: 11px;
+}
+
+::-webkit-scrollbar-button {
+	background-color: #333;
+	color: #BBB;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #444;
+}
+
+::-webkit-scrollbar-button:hover,
+::-webkit-scrollbar-thumb:hover {
+	background-color: #505050;
+}

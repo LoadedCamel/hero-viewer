@@ -1,0 +1,136 @@
+html, body {
+	overflow: hidden;
+	-webkit-user-select: none;
+}
+
+body {
+	background-color: #000;
+	color: #DDD;
+	font-family: "Webly Sleek UI";
+	font-size: 11px;
+	cursor: default;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+b:not([class*="italic"]),
+strong:not([class*="italic"]),
+.bold:not([class*="italic"]) {
+	font-family: "Webly Sleek UI SemiBold";
+}
+
+i:not([class*="bold"]),
+em:not([class*="bold"]),
+.italic:not([class*="bold"]) {
+	font-family: "Webly Sleek UI Italic";
+}
+
+b.italic,
+strong.italic,
+i.bold,
+em.bold,
+.bold.italic {
+	font-family: "Webly Sleek UI SemiBoldItalic";
+}
+
+div.container,
+div.container-fluid {
+	padding: 0;
+}
+
+div#actionbar {
+	text-align: left;
+	padding-left: 4px;
+	padding-top: 2px;
+	height: 74px;
+}
+
+div#header {
+	height: 60px;
+	text-align: left;
+	padding-left: 4px;
+	padding-top: 4px;
+}
+
+input[type="button"],
+input[type="submit"],
+button {
+	cursor: pointer;
+}
+
+div#info_popup {
+	pointer-events: none;
+}
+
+div.powerslots {
+	overflow: hidden;
+}
+
+div#scrolldummy {
+	overflow: auto;
+	width: 8px;
+	position: absolute;
+	top: 165px;
+	right: 0;
+	width: 8px;
+	z-index: 10px;
+	pointer-events: none;
+}
+
+div.row {
+	margin: 0;
+}
+
+div.powerslots {
+	min-height: 635px;
+	vertical-align: top;
+}
+
+div.row.toolbarbuttons {
+	height: 74px;
+}
+
+div.row.charactersummary {
+	height: 60px;
+}
+
+div.row.powerslist {
+	height: 685px;
+}
+
+div#counters ul {
+	list-style-type: none;
+}
+
+div#counters ul li:not([class*="active"]) {
+	visibility: hidden;
+}
+
+div#counters ul li {
+	font-family: "Webly Sleek UI SemiBold";
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	padding-left: 24px;
+	background-repeat: no-repeat;
+}
+
+div#counters ul li#cnt_enhcheck {
+	background-image: url('../images/salvage/salvage_forbidden_technique.png');
+	background-position: 1px 2px;
+	background-size: 18px 18px;
+}
+
+div#counters ul li#cnt_catalysts {
+	background-image: url('../images/salvage/salvage_EnhancementCatalyst.png');
+	background-position: 0 1px;
+	background-size: 20px 20px;
+}
+
+div#counters ul li#cnt_boosters {
+	background-image: url('../images/salvage/salvage_EnhancementBooster.png');
+	background-position: 2px 2px;
+	background-size: 16px 16px;
+}

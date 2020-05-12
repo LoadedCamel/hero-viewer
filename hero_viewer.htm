@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="initial-scale=1" />
+	<!--<meta name="viewport" content="width=device-width,initial-scale=1" />-->
+
+	<title>Hero Viewer</title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/frameless_window.css" />
+	<link rel="stylesheet" type="text/css" href="css/fonts.css" />
+	<link rel="stylesheet" type="text/css" href="css/controls/general.css" />
+	<link rel="stylesheet" type="text/css" href="css/controls/hero.css" />
+	<link rel="stylesheet" type="text/css" href="css/controls/villain.css" />
+	<link rel="stylesheet" type="text/css" href="css/scrollbars.css" />
+
+	<link rel="icon" type="image/png" href="images/schematic_purple_gem.png" />
+	<link rel="shortcut icon" type="image/png" href="images/schematic_purple_gem.png" />
+</head>
+<body>
+
+<div class="container-fluid">
+	<div class="row" id="titlebar">
+		<div class="col-md-6 text-left">
+			<div id="applabel"><span id="apptitle"></span></div>
+		</div>
+		<div class="col-md-6 text-right">
+			<div class="button" id="bmin">
+				<img src="images/buttons/minimize.png" width="10" height="10" alt="" />
+			</div>
+			<div class="button" id="bclose">
+				<img src="images/buttons/close.png" width="10" height="10" alt="" />
+			</div>
+		</div>
+	</div>
+
+	<div class="row toolbarbuttons">
+		<div class="col-md-12 text-left" id="actionbar">
+			<div>
+				<span class="heroaction"><input type="button" id="bopenmxd" value="Import build" /></span>
+			</div>
+			<div style="margin-top: 3px;">
+				<span class="heroaction"><input type="button" id="bopenjson" value="Open build config." /></span>
+				<span class="heroaction"><input type="button" id="bsavejson" value="Save build config." /></span>
+			</div>
+			<div style="margin-top: 3px;">
+				<span class="heroaction"><input type="button" id="btestsrv" value="Build on test server" /></span>
+				<span id="senhchecktoggle" class="heroaction" style="margin-left: 6px;"><input type="button" id="benhchecktoggle" value="Enh. check mode" /></span>
+				<span id="scatalysttoggle" class="heroaction"><input type="button" id="bcatalysttoggle" value="Catalysts mode" /></span>
+				<span id="sboostertoggle" class="heroaction"><input type="button" id="bboostertoggle" value="Boosters mode" /></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="row charactersummary">
+		<div class="header col-md-3" id="header"></div>
+		<div class="col-md-9 text-left" id="counters">
+			<ul>
+				<li id="cnt_enhcheck"></li>
+				<li id="cnt_catalysts"></li>
+				<li id="cnt_boosters"></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row powerslist hidden" id="powerslist">
+		<div class="col-md-1 powers" id="primaryspec"></div>
+		<div class="col-md-1 powers" id="secondaryspec"></div>
+		<div class="col-md-1 powers" id="pools"></div>
+		<div class="col-md-9 powerslotsouter">
+			<div class="powerslots powers1" id="powers1"></div>
+			<div class="powerslots powers2" id="powers2"></div>
+			<div class="powerslots powers3" id="powers3"></div>
+		</div>
+		<!--<div id="scrolldummy"></div>-->
+	</div>
+
+</div>
+
+<div id="info_popup"></div>
+<div id="preload">
+	<span class="f1_1">a</span>
+	<span class="f1_2">a</span>
+	<span class="f1_3">a</span>
+	<span class="f1_4">a</span>
+	<span class="f3">a</span>
+	<span class="f4">a</span>
+
+	<img src="MHD/Images/Overlay/IO.png" width="30" height="30" alt="" />
+	<img src="MHD/Images/Overlay/HO.png" width="30" height="30" alt="" />
+	<img src="MHD/Images/Overlay/Attuned.png" width="30" height="30" alt="" />
+	<img src="MHD/Images/Overlay/SuperiorAttuned.png" width="30" height="30" alt="" />
+
+	<img src="images/E_ICON_BefuddlingAura.png" width="30" height="30" alt="" />
+</div>
+
+<script src="hero_viewer.js"></script>
+
+</body>
+</html>

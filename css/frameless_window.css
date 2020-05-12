@@ -1,0 +1,75 @@
+.text-right {
+	text-align: right !important;
+}
+
+#titlebar, #titlebar div {
+	height: 31px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#titlebar {
+	-webkit-app-region: drag;
+	background-color: #1c1c1c;
+	color: inherit;
+}
+
+#titlebar #applabel {
+	padding-left: 2px;
+}
+
+#titlebar #applabel span {
+	margin-top: 6px;
+	padding-left: 8px;
+	color: #b2b2b2;
+	display: inline-block;
+	font-size: 12px;
+}
+
+#titlebar #applabel:before {
+	content: url('../images/16/purple_gem.png');
+	position: relative;
+	z-index: 10000;
+	left: 3px;
+	top: 4px;
+	width: 16px;
+	height: 16px;
+}
+
+#titlebar #applabel,
+#titlebar .button,
+#titlebar button,
+#titlebar input[type="button"] {
+	-webkit-app-region: no-drag;
+}
+
+#titlebar .button,
+#titlebar button,
+#titlebar input[type="button"] {
+	width: 39px;
+	height: 31px;
+	cursor: default;
+	display: inline-block;
+}
+
+#titlebar .button img, /* 10x10 */
+#titlebar button img {
+	position: relative;
+	left: -14px;
+	top: 7px;
+}
+
+#titlebar .button.close,
+#titlebar button.close {
+	margin-right: 10px;
+}
+
+#titlebar .button:hover img,
+#titlebar button:hover img {
+	filter: brightness(150%);
+}
+
+#titlebar .button:hover,
+#titlebar button:hover {
+	background-color: #444;
+}

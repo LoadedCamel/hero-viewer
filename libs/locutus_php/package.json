@@ -1,0 +1,9 @@
+{
+	"name": "Locutus-PHP",
+	"version": "1.0.0",
+	"description": "Locutus PHP assimilations for JavaScript",
+	"main": "locutus_php.js",
+	"repository": "",
+	"author": "locutus.io",
+	"licence": "GPL"
+}

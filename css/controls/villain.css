@@ -1,0 +1,47 @@
+body.villain span.heroaction,
+body.villain div.powerslot {
+	background: linear-gradient(to bottom, #888888 0%, #555555 2%, #1D1D1D 4%, #300004 50%, #1D1D1D 96%, #282828 98%, #434343 100%);
+}
+
+body.villain span.heroaction input,
+body.villain span.heroaction button,
+body.villain div.powerslot div.inner {
+	background: linear-gradient(to bottom, #AD8286 0%, #4D0006 33%, #300004 66%, #28191A 100%);
+}
+
+body.villain span.heroaction.active {
+	filter: hue-rotate(54deg) saturate(168%) brightness(104%);
+}
+
+body.villain div#info_popup {
+	border: 1px solid #8F2629; /* Base: #44F Hue +118, Sat +0, Lum -44 */
+}
+
+/*
+
+Villain controls
+
+Flat button
+	Background (inner): c10c0c
+	Background (outer): d40d0d
+	Text: efc2c2
+
+Spec name
+	Top color: efc2c2
+	Bottom color: ffaf00
+
+Power button
+	Border: 261516
+	Background
+		Top color: ad8286
+		Bottom color: 300004
+	Power label
+		Top color: fffbf1
+		Bottom color: fce69e
+	Extra borders
+		Inner: 1d1d1d
+		Mid: 555555
+		Outer: c3c3c3
+	Slots background: 210000
+
+*/

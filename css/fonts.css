@@ -1,0 +1,98 @@
+/* ******************************* */
+/* Font definitions
+/* ******************************* */
+
+/* Todo: bold fonts
+Use different ones ?
+
+Calibri -> Lato / Carlito
+Segoe UI -> Webly Sleek UI / Open Sans/Noto Sans (?)
+*/
+
+@font-face {
+	font-family: "Webly Sleek UI";
+	src: url("fonts/weblysleekui_normal.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Webly Sleek UI Italic";
+	font-style: italic;
+	src: url("fonts/weblysleekui_italic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Webly Sleek UI SemiBold";
+	font-weight: bold;
+	src: url("fonts/weblysleekui_semibold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Webly Sleek UI SemiBoldItalic";
+	font-weight: bold;
+	font-style: italic;
+	src: url("fonts/weblysleekui_semibold_italic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Red Circle";
+	src: local("Red Circle"), url("fonts/red_circle.woff2") format("woff2");
+}
+
+/* Small fonts used for boosters indicator */
+@font-face {
+	font-family: "Android 101";
+	src: url("fonts/android_101.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Petitinho";
+	src: url("fonts/petitinho.woff2") format("woff2");
+}
+
+
+/* ******************************* */
+/* Preloader */
+/* ******************************* */
+
+div#preload {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1px;
+	height: 1px;
+	z-index: -10000;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+div#preload span {
+	font-size: 1pt;
+}
+
+div#preload span.f1_1 {
+	font-family: "Webly Sleek UI";
+}
+
+div#preload span.f1_2 {
+	font-family: "Webly Sleek UI SemiBold";
+}
+
+div#preload span.f1_3 {
+	font-family: "Webly Sleek UI Italic";
+}
+
+div#preload span.f1_4 {
+	font-family: "Webly Sleek UI SemiBoldItalic";
+}
+
+div#preload span.f2 {
+	font-family: "Red Circle";
+}
+
+div#preload span.f3 {
+	font-family: "Android 101";
+}
+
+div#preload span.f4 {
+	font-family: "Petitinho";
+}

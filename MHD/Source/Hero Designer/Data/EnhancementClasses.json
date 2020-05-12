@@ -1,0 +1,184 @@
+[
+  {
+    "ID": 1,
+    "Name": "Accuracy",
+    "ShortName": "Acc",
+    "ClassID": "Accuracy_Boost",
+    "Desc": "Increases the accuracy of a power."
+  },
+  {
+    "ID": 2,
+    "Name": "Activation Decrease",
+    "ShortName": "ActRdx",
+    "ClassID": "Interrupt_Boost",
+    "Desc": "Decreases interrupt time of powers that can be interrupted."
+  },
+  {
+    "ID": 3,
+    "Name": "Confuse Duration",
+    "ShortName": "Conf",
+    "ClassID": "Confuse_Boost",
+    "Desc": "Increasees the duration of a Confuse power."
+  },
+  {
+    "ID": 4,
+    "Name": "Damage Increase",
+    "ShortName": "Dmg",
+    "ClassID": "Damage_Boost",
+    "Desc": "Increases the Damage done by a power."
+  },
+  {
+    "ID": 5,
+    "Name": "Defense Buff",
+    "ShortName": "DefBuff",
+    "ClassID": "Buff_Defense_Boost",
+    "Desc": "Enhances the effectiveness of defense buffs"
+  },
+  {
+    "ID": 6,
+    "Name": "Defense Debuff",
+    "ShortName": "DefDeb",
+    "ClassID": "Debuff_Defense_Boost",
+    "Desc": "Enhances the effectiveness of defense debuffs."
+  },
+  {
+    "ID": 7,
+    "Name": "Endurance Modification",
+    "ShortName": "EndMod",
+    "ClassID": "Recovery_Boost",
+    "Desc": "Enhances Endurance Drain or Recovery powers."
+  },
+  {
+    "ID": 8,
+    "Name": "Endurance Reduction",
+    "ShortName": "EndRdx",
+    "ClassID": "EnduranceDiscount_Boost",
+    "Desc": "Decreases the endurance cost of a power."
+  },
+  {
+    "ID": 9,
+    "Name": "Fear Duration",
+    "ShortName": "Fear",
+    "ClassID": "Fear_Boost",
+    "Desc": "Increases the duration of a fear power."
+  },
+  {
+    "ID": 10,
+    "Name": "Flight Speed",
+    "ShortName": "Flight",
+    "ClassID": "SpeedFlying_Boost",
+    "Desc": "Increases the speed of a Flight power."
+  },
+  {
+    "ID": 11,
+    "Name": "Healing",
+    "ShortName": "Heal",
+    "ClassID": "Heal_Boost",
+    "Desc": "Enhances the healing ability of a power."
+  },
+  {
+    "ID": 12,
+    "Name": "Hold Duration",
+    "ShortName": "Hold",
+    "ClassID": "Hold_Boost",
+    "Desc": "Increases the duration of a hold power."
+  },
+  {
+    "ID": 13,
+    "Name": "Immobilisation Duration",
+    "ShortName": "Immob",
+    "ClassID": "Immobilized_Boost",
+    "Desc": "Increases the duration of an immobilization power."
+  },
+  {
+    "ID": 14,
+    "Name": "Intangibility Duration",
+    "ShortName": "Intan",
+    "ClassID": "Intangible_Boost",
+    "Desc": "Increases the duration of an intangibiltiy power."
+  },
+  {
+    "ID": 15,
+    "Name": "Jumping",
+    "ShortName": "Jump",
+    "ClassID": "Jump_Boost",
+    "Desc": "Increases the distance of a jump power."
+  },
+  {
+    "ID": 16,
+    "Name": "Knockback Distance",
+    "ShortName": "KBDist",
+    "ClassID": "Knockback_Boost",
+    "Desc": "Increases the knockback and knockup distance."
+  },
+  {
+    "ID": 17,
+    "Name": "Range",
+    "ShortName": "Range",
+    "ClassID": "Range_Boost",
+    "Desc": "Enhances the range of a power."
+  },
+  {
+    "ID": 18,
+    "Name": "Recharge Reduction",
+    "ShortName": "RechRdx",
+    "ClassID": "Recharge_Boost",
+    "Desc": "Reduces the recharge time of a power."
+  },
+  {
+    "ID": 19,
+    "Name": "Resist Damage",
+    "ShortName": "ResDam",
+    "ClassID": "Res_Damage_Boost",
+    "Desc": "Enhances the damage resistance of a power."
+  },
+  {
+    "ID": 20,
+    "Name": "Run Speed",
+    "ShortName": "Run",
+    "ClassID": "SpeedRunning_Boost",
+    "Desc": "Increases the speed of a run power."
+  },
+  {
+    "ID": 21,
+    "Name": "Sleep Duration",
+    "ShortName": "Sleep",
+    "ClassID": "Sleep_Boost",
+    "Desc": "Increases the duration of a sleep power."
+  },
+  {
+    "ID": 22,
+    "Name": "Slow",
+    "ShortName": "Slow",
+    "ClassID": "Slow_Boost",
+    "Desc": "Increases the effectiveness of powers that slow."
+  },
+  {
+    "ID": 23,
+    "Name": "Disorient Duration",
+    "ShortName": "Dsrnt",
+    "ClassID": "Stunned_Boost",
+    "Desc": "Increases the duration of a disorient power."
+  },
+  {
+    "ID": 24,
+    "Name": "Taunt Duration",
+    "ShortName": "Taunt",
+    "ClassID": "Taunt_Boost",
+    "Desc": "Increases the duration a taunted target will stay on you."
+  },
+  {
+    "ID": 25,
+    "Name": "To Hit Buff",
+    "ShortName": "ToHit",
+    "ClassID": "Buff_ToHit_Boost",
+    "Desc": "Enhances the effectiveness of accuracy buffs."
+  },
+  {
+    "ID": 26,
+    "Name": "To Hit Debuff",
+    "ShortName": "ToHitDeb",
+    "ClassID": "Debuff_ToHit_Boost",
+    "Desc": "Enhances the effectiveness of accuracy debuffs."
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "_from": "when-switch",
+  "_id": "when-switch@0.3.1",
+  "_inBundle": false,
+  "_integrity": "sha1-gGbaAHyvr7ToOaGcMIihzP/b2FE=",
+  "_location": "/when-switch",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "when-switch",
+    "name": "when-switch",
+    "escapedName": "when-switch",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/when-switch/-/when-switch-0.3.1.tgz",
+  "_shasum": "8066da007cafafb4e839a19c3088a1ccffdbd851",
+  "_spec": "when-switch",
+  "_where": "/storage/emulated/0/Download",
+  "author": {
+    "name": "Chris Feijoo",
+    "url": "https://github.com/kube"
+  },
+  "bugs": {
+    "url": "https://github.com/kube/when-switch/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Functional implementation of switch/case, inspired by Ruby case/when.",
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^22.4.3",
+    "ts-jest": "^22.4.4",
+    "typescript": "^2.8.3"
+  },
+  "homepage": "https://github.com/kube/when-switch#readme",
+  "keywords": [
+    "switch",
+    "case",
+    "when"
+  ],
+  "license": "MIT",
+  "main": "./lib/when.js",
+  "name": "when-switch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kube/when-switch.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "types": "./lib/when.d.ts",
+  "version": "0.3.1"
+}

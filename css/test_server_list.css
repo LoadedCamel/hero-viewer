@@ -1,0 +1,13 @@
+ul#cmdlist li.highlight {
+	list-style-type: disc; /* This needs improvements... */
+}
+
+ul#cmdlist li.highlight span.raw,
+ul#cmdlist li:not([class*="highlight"]) span.selectable {
+	display: none;
+}
+
+ul#cmdlist li.highlight span.selectable,
+ul#cmdlist li:not([class*="highlight"]) span.raw {
+	display: inline-block;
+}
